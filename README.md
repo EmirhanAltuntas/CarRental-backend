@@ -3,4 +3,4 @@
 -> autofac eklendi
 -> FluentValidation eklendi
 -> AOP Desteği eklendi
--> AspectValidation ekledi
+-> ValidationAspect ekledi
