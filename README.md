@@ -12,5 +12,5 @@
 -> Core katmanı içerisine Utilities klasörü altına Helpers klasörü eklendi. 
 -> Helpers içerisine FileHelper ve GuidHelper Klasörlemesi Yapıldı
 -> FileHelper içerisine IFileHelper interface'i ve FileHelperManager sınıfı Eklendi (image eklemek,silmek vb. için kullandığımız yapıyı içeriyor)
-daha sonra temel ekleme silme operasyonları yazıldı, içerisinde bu yapı kullanıldı. 
+-> daha sonra temel ekleme silme operasyonları yazıldı, içerisinde bu yapı kullanıldı. 
 -> Business code örneği olarak en fazla 5 image olabilir koşulu eklendi.
