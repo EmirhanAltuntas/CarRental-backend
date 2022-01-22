@@ -29,6 +29,6 @@ namespace Business.Constants
         public static string CustomerUpdatedMessage = "Müşteri Güncellendi";
         public static string RentalAddedMessage ="Kiralama Başarılı";
         public static string RentalAddedError ="Kiralama Başarısız";
-
+        internal static string CarImageAdded;
     }
 }
