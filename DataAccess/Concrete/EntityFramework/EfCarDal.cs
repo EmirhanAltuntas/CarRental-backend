@@ -15,7 +15,7 @@ namespace DataAccess.Concrete.EntityFramework
     {
      
 
-        List<CarDetailDto> ICarDal.GetProductDetails()
+        List<CarDetailDto> ICarDal.GetCarDetails()
         {
             using (CarsDbContext context = new CarsDbContext())
             {
