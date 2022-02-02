@@ -1,2 +1,2 @@
 # CarRentalProject
-15. gün jwt Cache-Transaction-Performance eklendi
+15. gün Cache-Transaction-Performance eklendi
