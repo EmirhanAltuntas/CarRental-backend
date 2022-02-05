@@ -26,7 +26,7 @@ namespace Business.Concrete
         {
             _carDal = carDal;
         }
-        [SecuredOperation("admin,user")]
+       // [SecuredOperation("admin,user")]
         [CacheAspect]
         [PerformanceAspect(4)]
         public IDataResult<List<Car>> GetAll()
@@ -67,7 +67,7 @@ namespace Business.Concrete
 
         public IDataResult<List<CarDetailDto>> GetCarDetails()
         {
-            return new SuccessDataResult<List<CarDetailDto>>( _carDal.GetCarDetails());
+            return new SuccessDataResult<List<CarDetailDto>>( _carDal.GetCarDetails(),Messages.CarsListed);
         }
 
         [TransactionScopeAspect]
