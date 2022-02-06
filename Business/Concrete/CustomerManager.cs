@@ -37,7 +37,7 @@ namespace Business.Concrete
 
         public IDataResult<List<Customer>> GetById(int id)
         {
-            return new DataResult<List<Customer>>(_customerDal.GetAll(p=>p.CustomerID==id), true);
+            return new DataResult<List<Customer>>(_customerDal.GetAll(p=>p.CustomerId==id), true);
         }
 
         public IDataResult<List<CustomerDetailDto>> GetCustomers()
