@@ -1,2 +1,2 @@
 # CarRentalProject
-15. gün Cache-Transaction-Performance eklendi
+17. gün listeleme işlemleri yapıldı. Kod iyileştirme gerçekleştirildi
